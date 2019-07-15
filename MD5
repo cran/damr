@@ -1,4 +1,4 @@
-4fd941de76038a0c5b1149c9ce751bbe *DESCRIPTION
+2da45efe3cd5f7652c78afb5f9f823f7 *DESCRIPTION
 cfee021320c1ca4a32ada233c45f4aa9 *NAMESPACE
 0bfb217c850fa789af623ca9e12a111e *R/aaa.R
 28febbc1bd4a01d5e819a2405e76d0cd *R/data.R
@@ -6,10 +6,10 @@ cfee021320c1ca4a32ada233c45f4aa9 *NAMESPACE
 8d93675af704409e0264661c015419e5 *R/find-dam-first-last-lines.R
 3fcd0615cf019d160c25b714f9b8da4d *R/link-dam-metadata.R
 4e239d516a5749e0e627468c67961ebd *R/load-dam.R
-1cbcd14646afced88cf3e12e74d20e0b *R/parse-datetime.R
+b3666dd6ae5a054ee7ef8c21f13a1417 *R/parse-datetime.R
 e34210caaaf82b79d3f52456a8f3f7ca *R/read-dam-file.R
 26987929d344ffbdafdfd4fcf24e4a09 *R/utils-path.R
-0a5d8fe523d9ba157544a49e104b9830 *README.md
+4f4f80a8f6168711f40663d6ed5ab962 *README.md
 1cd3bb1a0722e42e1ee84c2377d34193 *data/single_file_metadata.rda
 facdb778c674cc74dc4b0d5ed072f61f *data/two_files_metadata.rda
 6d12b532a2d516bdcecfdc064109b5be *inst/extdata/M014.txt
