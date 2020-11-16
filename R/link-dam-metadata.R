@@ -35,7 +35,7 @@
 #' @export link_dam_metadata link_dam2_metadata
 #' @aliases link_dam2_metadata
 link_dam_metadata <- function(x, result_dir){
-  . = id = region_id = experiment_id = start_datetime = path = NULL
+  . = id = region_id = experiment_id = start_datetime = stop_datetime= path = NULL
   if(is.character(x))
     q <- data.table::fread(x)
   else
@@ -53,6 +53,7 @@ link_dam_metadata <- function(x, result_dir){
 
   # force format for midnight dates (#6)
   q[, start_datetime := sapply(start_datetime, function(x) format(parse_datetime(x), format = "%F %T"))]
+  q[, stop_datetime := sapply(stop_datetime, function(x) format(parse_datetime(x), format = "%F %T"))]
 
   q[,experiment_id := sprintf("%s|%s",
                               start_datetime,
