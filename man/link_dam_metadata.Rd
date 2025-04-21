@@ -24,7 +24,7 @@ These function will augment metadata from two different types of inputs:
 \enumerate{
 \item A \link{data.frame} (recommended)
 In this case, the function will try to match requested data with data available on \code{result_dir}.
-The provided \link{data.frame} or \link{data.table} has typically one row per requested individual and the columns
+The provided \link{data.frame} or \link[data.table:data.table]{data.table::data.table} has typically one row per requested individual and the columns
 (not necessarily in this order):
 \itemize{
 \item \code{file} -- the name of a data file (e.g. \code{"Monitor3.txt"}), it has to exists in result_dir.
